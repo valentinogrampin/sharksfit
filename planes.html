@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planes - Sharks Fit</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                  <img src="img/logosharksfit-removebg-preview.png" width="50px" height="50px">
+                <span>Sharks Fit</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="planes.html" class="nav-link active">Planes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="testimonios.html" class="nav-link">Testimonios</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contacto.html" class="nav-link">Contacto</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section for Plans -->
+    <section class="hero" style="height: 60vh; min-height: 400px;">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="hero-title-main">Elegí tu plan</span>
+                    <span class="hero-title-sub">Empezá hoy mismo</span>
+                </h1>
+                <p class="hero-description">
+                    Planes diseñados para cada objetivo y presupuesto. 
+                    Todos incluyen seguimiento profesional y resultados garantizados.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section class="plans">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestros Planes</h2>
+                <p class="section-subtitle">
+                    Desde principiantes hasta atletas avanzados, tenemos el plan perfecto para tu transformación
+                </p>
+            </div>
+            
+            <div class="plans-grid">
+                <!-- Plan Premium -->
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3 class="plan-name">Plan Premium</h3>
+                        <div class="plan-price">$15<span class="plan-period">/mes</span></div>
+                        <p class="plan-description">Perfecto para comenzar tu transformación</p>
+                    </div>
+                    <div class="plan-body">
+                        <ul class="plan-features">
+                            <li><i class="fas fa-check"></i> Rutina personalizada básica</li>
+                            <li><i class="fas fa-check"></i> Plan nutricional general</li>
+                            <li><i class="fas fa-check"></i> Soporte por WhatsApp</li>
+                            <li><i class="fas fa-check"></i> Videos explicativos</li>
+                            <li><i class="fas fa-check"></i> Seguimiento cada 15 dias</li>
+                            <li class="unavailable"><i class="fas fa-times"></i> Videollamadas</li>
+                            <li class="unavailable"><i class="fas fa-times"></i> Ajustes mensuales</li>
+                        </ul>
+                        <a href="contacto.html" class="plan-button">Comprar</a>
+                    </div>
+                </div>
+
+                <!-- Plan Gold - Featured -->
+                <div class="plan-card featured">
+                    <div class="plan-header">
+                        <h3 class="plan-name">Plan Gold</h3>
+                        <div class="plan-price">$20<span class="plan-period">/mes</span></div>
+                        <p class="plan-description">El más elegido por nuestros clientes</p>
+                    </div>
+                    <div class="plan-body">
+                        <ul class="plan-features">
+                            <li><i class="fas fa-check"></i> Rutina 100% personalizada</li>
+                            <li><i class="fas fa-check"></i> Plan nutricional detallado</li>
+                            <li><i class="fas fa-check"></i> Soporte prioritario 24/7</li>
+                            <li><i class="fas fa-check"></i> Biblioteca de ejercicios</li>
+                            <li><i class="fas fa-check"></i> Seguimiento semanal</li>
+                            <li><i class="fas fa-check"></i> Videollamada semanal</li>
+                            <li><i class="fas fa-check"></i> Ajustes quincenales</li>
+                        </ul>
+                        <a href="contacto.html" class="plan-button">Comprar</a>
+                    </div>
+                </div>
+
+                <!-- Plan Platinium -->
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3 class="plan-name">Plan Platinium</h3>
+                        <div class="plan-price">$30<span class="plan-period">/mes</span></div>
+                        <p class="plan-description">Para resultados máximos y seguimiento VIP</p>
+                    </div>
+                    <div class="plan-body">
+                        <ul class="plan-features">
+                            <li><i class="fas fa-check"></i> Rutina ultra personalizada</li>
+                            <li><i class="fas fa-check"></i> Plan nutricional + recetas</li>
+                            <li><i class="fas fa-check"></i> Acceso VIP a todas las funciones</li>
+                            <li><i class="fas fa-check"></i> Coach personal asignado</li>
+                            <li><i class="fas fa-check"></i> Contenido exclusivo</li>
+                            <li><i class="fas fa-check"></i> Seguimiento diario</li>
+                            <li><i class="fas fa-check"></i> Dos videollamadas semanales</li>
+                            <li><i class="fas fa-check"></i> Ajustes personalizados</li>
+                        </ul>
+                        <a href="contacto.html" class="plan-button">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Garantía y Beneficios -->
+            <div style="margin-top: 4rem;">
+                <div class="section-header">
+                    <h2 class="section-title">Todos los planes incluyen</h2>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <h3>Flexibilidad total</h3>
+                        <p>Cambia o cancela tu plan cuando quieras, sin penalizaciones</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Coaches certificados</h3>
+                        <p>Todos nuestros entrenadores tienen certificación internacional</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section style="padding: 100px 0; background: white;">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Preguntas Frecuentes</h2>
+                <p class="section-subtitle">Resolvemos tus dudas más comunes</p>
+            </div>
+            
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div style="margin-bottom: 2rem; padding: 2rem; background: var(--light-color); border-radius: var(--border-radius); border-left: 4px solid var(--primary-color);">
+                    <h4 style="color: var(--dark-color); margin-bottom: 1rem; font-weight: 600;">¿Puedo cambiar de plan en cualquier momento?</h4>
+                    <p style="color: var(--text-light); margin: 0;">Sí, puedes cambiar tu plan cuando quieras. Los cambios se aplican en tu próximo ciclo de facturación.</p>
+                </div>
+                
+                <div style="margin-bottom: 2rem; padding: 2rem; background: var(--light-color); border-radius: var(--border-radius); border-left: 4px solid var(--primary-color);">
+                    <h4 style="color: var(--dark-color); margin-bottom: 1rem; font-weight: 600;">¿Necesito equipamiento especial?</h4>
+                    <p style="color: var(--text-light); margin: 0;">No necesariamente. Adaptamos las rutinas a tu equipamiento disponible, desde entrenamientos con peso corporal hasta gym completo.</p>
+                </div>
+                
+                <div style="margin-bottom: 2rem; padding: 2rem; background: var(--light-color); border-radius: var(--border-radius); border-left: 4px solid var(--primary-color);">
+                    <h4 style="color: var(--dark-color); margin-bottom: 1rem; font-weight: 600;">¿Cuánto tiempo veo resultados?</h4>
+                    <p style="color: var(--text-light); margin: 0;">Los primeros cambios se notan en 2-3 semanas, pero los resultados más notables aparecen entre 6-8 semanas de entrenamiento consistente.</p>
+                </div>
+                
+                <div style="margin-bottom: 2rem; padding: 2rem; background: var(--light-color); border-radius: var(--border-radius); border-left: 4px solid var(--primary-color);">
+                    <h4 style="color: var(--dark-color); margin-bottom: 1rem; font-weight: 600;">¿Qué incluye el seguimiento?</h4>
+                    <p style="color: var(--text-light); margin: 0;">Incluye revisión de tu progreso, ajustes en rutinas y alimentación, resolución de dudas y motivación constante por parte de tu coach.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>¿Listo para transformar tu cuerpo?</h2>
+                <p>Comienza tu transformación hoy mismo con una prueba gratuita de 7 días</p>
+                <div class="cta-buttons">
+                    <a href="contacto.html" class="btn btn-primary btn-lg">
+                        <i class="fas fa-rocket"></i>
+                        Prueba Gratis 3 Días
+                    </a>
+                    <a href="testimonios.html" class="btn btn-outline">
+                        <i class="fas fa-star"></i>
+                        Ver Testimonios
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-dumbbell"></i>
+                        <span>Sharks Fit</span>
+                    </div>
+                    <p>Transformando vidas a través del entrenamiento personalizado online.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="plans.html">Planes</a></li>
+                        <li><a href="testimonials.html">Testimonios</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><i class="fab fa-whatsapp"></i> +598 98 640 557</li>
+                        <li><i class="fas fa-envelope"></i> infosharkfiit@gmail.com</li>
+                        <li><i class="fab fa-instagram"></i> @sharksfiit</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Horarios</h4>
+                    <ul>
+                        <li>Lunes - Viernes: 6:00 - 22:00</li>
+                        <li>Sábados: 8:00 - 20:00</li>
+                        <li>Domingos: 9:00 - 18:00</li>
+                        <li>Soporte 24/7 Online</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sharks Fit. Diseñado por Valentino Grampin.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile menu toggle
+        const navToggle = document.getElementById('nav-toggle');
+        const navMenu = document.getElementById('nav-menu');
+
+        navToggle.addEventListener('click', function() {
+            navMenu.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                navToggle.classList.remove('active');
+            });
+        });
+
+        // Back to top button
+        const backToTopBtn = document.getElementById('back-to-top');
+        
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        });
+
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>

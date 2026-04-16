@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Sharks Fit</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="img/logosharksfit-removebg-preview.png" width="50px" height="50px">
+                <span>Sharks Fit</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="planes.html" class="nav-link">Planes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="testimonios.html" class="nav-link">Testimonios</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contacto.html" class="nav-link">Contacto</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section for Contact -->
+    <section class="hero" style="height: 60vh; min-height: 400px;">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="hero-title-main">Hablemos</span>
+                    <span class="hero-title-sub">Tu transformación empieza aquí</span>
+                </h1>
+                <p class="hero-description">
+                    Estamos aquí para ayudarte en cada paso de tu viaje fitness. 
+                    Contactanos y comencemos a trabajar juntos hacia tus objetivos.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <div class="section-header">
+                        <h2 class="section-title">Envianos un mensaje</h2>
+                        <p class="section-subtitle">
+                            Completá el formulario y te responderemos en menos de 24 horas
+                        </p>
+                    </div>
+                    
+                    <form class="contact-form" action="https://formspree.io/f/mblyvrjl" method="POST"  id="contact-form">
+                        <div class="form-group">
+                            <div class="form-row">
+                                <div class="form-field">
+                                    <input type="text" id="nombre" name="nombre" required>
+                                    <label for="nombre">Nombre completo</label>
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="form-field">
+                                    <input type="email" id="email" name="email" required>
+                                    <label for="email">Email</label>
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="form-row">
+                                <div class="form-field">
+                                    <input type="tel" id="telefono" name="telefono" required>
+                                    <label for="telefono">Teléfono</label>
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="form-field">
+                                    <select id="plan" name="plan" required>
+                                        <option value="">Selecciona un plan</option>
+                                        <option value="premium">Plan Premium - $15/mes</option>
+                                        <option value="gold">Plan Gold - $20/mes</option>
+                                        <option value="platinium">Plan Platinium - $30/mes</option>
+                                        <option value="consulta">Solo consulta</option>
+                                    </select>
+                                    <label for="plan">Plan de interés</label>
+                                    <i class="fas fa-trophy"></i>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="form-field">
+                                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                                <label for="mensaje">Contanos sobre tus objetivos</label>
+                                <i class="fas fa-comment"></i>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-lg form-submit">
+                            <i class="fas fa-paper-plane"></i>
+                            Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3>Información de Contacto</h3>
+                        <p>Estamos disponibles para ayudarte en tu transformación fitness.</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>WhatsApp</h4>
+                                    <p>+598 98 640 557</p>
+                                    <a href="https://wa.me/59898640557" class="contact-link">
+                                        <i class="fas fa-external-link-alt"></i> Escribinos
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Email</h4>
+                                    <p>infosharkfiit@gmail.com</p>
+                                    <a href="mailto:infosharkfiit@gmail.com" class="contact-link">
+                                        <i class="fas fa-external-link-alt"></i> Enviar email
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fab fa-instagram"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Instagram</h4>
+                                    <p>@sharksfiit</p>
+                                    <a href="https://instagram.com/sharksfiit" class="contact-link">
+                                        <i class="fas fa-external-link-alt"></i> Seguinos
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <h3>Horarios de Atención</h3>
+                        <div class="schedule">
+                            <div class="schedule-item">
+                                <span class="schedule-day">Lunes - Viernes</span>
+                                <span class="schedule-time">6:00 - 22:00</span>
+                            </div>
+                            <div class="schedule-item">
+                                <span class="schedule-day">Sábados</span>
+                                <span class="schedule-time">8:00 - 20:00</span>
+                            </div>
+                            <div class="schedule-item">
+                                <span class="schedule-day">Domingos</span>
+                                <span class="schedule-time">9:00 - 18:00</span>
+                            </div>
+                            <div class="schedule-item special">
+                                <span class="schedule-day">Soporte Online</span>
+                                <span class="schedule-time">24/7</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Preguntas Frecuentes</h2>
+                <p class="section-subtitle">Las consultas más comunes sobre nuestros servicios</p>
+            </div>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>¿Cuánto tiempo tardan en responder?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Respondemos todos los mensajes en menos de 24 horas durante días hábiles. Por WhatsApp, generalmente en 2-4 horas.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>¿Puedo agendar una consulta gratuita?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sí, ofrecemos una consulta gratuita de 15 minutos para conocerte mejor y evaluar cuál es el mejor plan para tus objetivos.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>¿Qué información necesitan para empezar?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Necesitamos conocer tus objetivos, historial de entrenamiento, disponibilidad de tiempo, equipamiento y cualquier condición médica relevante.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>¿Trabajan con personas principiantes?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Por supuesto. Trabajamos con personas de todos los niveles, desde principiantes absolutos hasta atletas avanzados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Modal -->
+    <div class="modal" id="success-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <i class="fas fa-check-circle"></i>
+                <h3>¡Mensaje enviado con éxito!</h3>
+            </div>
+            <div class="modal-body">
+                <p>Gracias por contactarnos. Te responderemos en las próximas 24 horas.</p>
+                <p>También puedes escribirnos por WhatsApp para una respuesta más rápida.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" onclick="closeModal()">
+                    <i class="fas fa-thumbs-up"></i>
+                    Perfecto
+                </button>
+                <a href="https://wa.me/59898640557" class="btn btn-outline">
+                    <i class="fab fa-whatsapp"></i>
+                    WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+   <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-dumbbell"></i>
+                        <span>Sharks Fit</span>
+                    </div>
+                    <p>Transformando vidas a través del entrenamiento personalizado online.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="plans.html">Planes</a></li>
+                        <li><a href="testimonials.html">Testimonios</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><i class="fab fa-whatsapp"></i> +598 98 640 557</li>
+                        <li><i class="fas fa-envelope"></i> infosharkfiit@gmail.com</li>
+                        <li><i class="fab fa-instagram"></i> @sharksfiit</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Horarios</h4>
+                    <ul>
+                        <li>Lunes - Viernes: 6:00 - 22:00</li>
+                        <li>Sábados: 8:00 - 20:00</li>
+                        <li>Domingos: 9:00 - 18:00</li>
+                        <li>Soporte 24/7 Online</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sharks Fit. Diseñado por Valentino Grampin.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+    <script src="js/app.js"></script>
+    </body>
+    </html>
